@@ -1,0 +1,73 @@
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+
+/* 外面自定义的图标 */
+
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.layui-body {
+    overflow: hidden;
+}
+
+
+/*滚动条隐藏*/
+
+a {
+    transition: none !important;
+}
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+    margin-left: 20px;
+    user-select: none;
+    /* 禁止里面的内容被选中 */
+}
+
+.userinfo span {
+    margin-left: 6px;
+}
+
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+    height: 40px;
+    width: 40px;
+}
+
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
+
+.layui-nav-item a {
+    font-size: 12px;
+}
