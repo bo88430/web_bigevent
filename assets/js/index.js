@@ -42,7 +42,7 @@ function getUserInfo() {
             renderAvatar(res.data) //调用renderAvata渲染用户头像
         },
         //不论成功或者失败都需要调用这个函数，防止用户直接输入index.html直接进入，这个是必须要登录过后才能进去
-        //在baseApi。js中挂载
+        //在baseApi。js中挂载 
         /*    complete: function(res) {
 
 
